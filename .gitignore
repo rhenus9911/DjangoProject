@@ -1,0 +1,7 @@
+### Django Web ###
+settings.py
+local_settings.py
+db.mysql
+*.log
+*.pot
+*.pyc
