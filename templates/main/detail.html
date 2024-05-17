@@ -2,7 +2,7 @@
 <div>
     {{question.content}}
 </div>
-<h5>{{question.answser_set.count}}개의 답변이 있습니다.</h5>
+<h5>{{question.answer_set.count}}개의 답변이 있습니다.</h5>
 <div>
     <ul>
         {% for answer in question.answer_set.all %}
